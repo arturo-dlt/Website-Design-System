@@ -1,0 +1,181 @@
+
+body {
+    background-color: #15141f;
+    color: white;
+    font-family: 'Poppins', Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    margin: 0px 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 23px;
+}
+
+p {
+    font-size: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* NAVIGATION */
+
+ul {
+    padding: 0;
+    margin: 30px;
+    font-size: 14px;
+}
+
+.breadcrumbs > li {
+    display: inline;
+}
+
+.breadcrumbs li+li::before {
+	padding: 15px;
+    content: "/";
+}
+
+.breadcrumbs a:hover {
+    color: gray;
+}
+
+#current-page-color {
+    color: rgb(255, 39, 154);
+}
+
+#current-page-fonts {
+    color: rgb(247, 154, 3);
+}
+
+#current-page-styles {
+    color: rgb(21, 164, 83);
+}
+
+/* CARDS */
+
+.card {
+    width: 300px;
+    height: auto;
+    padding: 50px 20px;
+    border-radius: 10px;
+    margin: 60px 10px;
+    display: inline-block;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    transition: transform .2s ease-in;
+    cursor: pointer;
+}
+
+.color {
+    background-color: rgb(255, 39, 154);
+}
+
+.font {
+    background-color: rgb(247, 154, 3);
+}
+
+.styles {
+    background-color: rgb(21, 164, 83);
+}
+
+/* COLOR CARDS */
+
+.card p {
+    display: inline;
+    margin: 0px 5px;
+}
+
+.fa-solid {
+    font-size: 50px;
+}
+
+.fa-copy {
+    display: inline;
+    font-size: 15px;
+}
+
+/* FONT CARDS */
+
+.font-preview {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 60px 10px;
+    padding: 0px;
+    display: inline-block;
+    background-color: white;
+    text-align: left;
+}
+
+.font-preview:hover {
+    transform: scale(1.03);
+    transition: transform .2s ease-in;
+    box-shadow: 0px 0px 15px rgb(247, 154, 3);
+}
+
+.font-title {
+    background-color: #f0f0f0;
+    border-radius: 10px 10px 0px 0px;
+    color: black;
+    padding: 20px 20px;
+}
+
+.font-title h2 {
+    font-size: 17px;
+    margin: 0px;
+}
+
+.font-title p {
+    font-size: 13px;
+    font-weight: 200px;
+    color: #505050;
+    margin: 0px;
+}
+
+#font-preview-box {
+    color: black;
+    padding: 10px 20px;
+}
+
+#poppins {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+}
+
+#open-sans {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+#montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+
+/* STYLE CARDS */
+
+.style-card {
+    width: 500px;
+    height: auto;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 50px 10px;
+    display: inline-block;
+    background-color: rgb(21, 164, 83);
+    text-align: left;
+}
